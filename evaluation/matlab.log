@@ -1,0 +1,34 @@
+[?1h=
+                                                           < M A T L A B (R) >
+                                                 Copyright 1984-2019 The MathWorks, Inc.
+                                                 R2019b (9.7.0.1190202) 64-bit (glnxa64)
+                                                             August 21, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+[H[2JStarting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 8).
+{Error using importdata (line 139)
+Unable to open file.
+
+Error in eval_sub (line 3)
+list = importdata(fullfile(data_root,eval_list));
+
+Error in eval_all (line 71)
+parfor i = 1:gpu_num %change 'parfor' to 'for' if singe GPU testing is used
+} 
+>> q{Unrecognized function or variable 'q'.
+} 
+
+>> parfor parfor
+       |
+{Error: Invalid expression. Check for missing or extra characters.
+} 
+
+>> eixt{Unrecognized function or variable 'eixt'.
+} 
+
+>> exit
+[?1l>
